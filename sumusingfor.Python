@@ -1,0 +1,9 @@
+num=int(input("enter"))
+if num < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   for i in range(0,num+1):
+       sum += num
+       num -= 1
+   print("The sum is",sum)
